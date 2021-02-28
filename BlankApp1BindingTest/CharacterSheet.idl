@@ -1,0 +1,9 @@
+namespace BlankApp1BindingTest
+{
+	[Windows.UI.Xaml.Data.Bindable]
+	runtimeclass CharacterSheet : Windows.UI.Xaml.Data.INotifyPropertyChanged
+	{
+		CharacterSheet();
+		Double Strength{ get; set; };
+	}
+}
